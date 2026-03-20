@@ -2,7 +2,7 @@ NoScamFam — Community Safety & Digital Wellness Platform
 
 A lightweight, AI-assisted incident processing system designed to transform unstructured community safety reports into structured, prioritized, and actionable security insights.
 
-Candidate Name
+**Candidate Name**
 
 Prathima Sindhu Varshini Sabbi
 
