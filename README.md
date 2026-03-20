@@ -2,7 +2,9 @@ NoScamFam — Community Safety & Digital Wellness Platform
 
 A lightweight, AI-assisted incident processing system designed to transform unstructured community safety reports into structured, prioritized, and actionable security insights.
 
-**Candidate Name**
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
+Candidate Name
 
 Prathima Sindhu Varshini Sabbi
 
@@ -13,6 +15,8 @@ Community Safety & Digital Wellness
 Estimated Time Spent
 
 ~3.5 hours
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 1. Problem Overview
 
@@ -25,6 +29,8 @@ Lack of actionable guidance
 Difficulty distinguishing real threats from noise
 
 NoScamFam addresses this by converting raw incident descriptions into structured intelligence, prioritizing threats, and delivering clear, calm, and actionable recommendations.
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 2. System Architecture
 
@@ -51,6 +57,8 @@ Query / Search Layer
 Security Digest Generation
 
 This architecture ensures clarity, reliability, and extensibility.
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 3. AI Integration and Fallback Strategy
 AI Capability Implemented
@@ -92,6 +100,8 @@ A deterministic rule-based fallback (fallback.py) is triggered
 Provides safe defaults with lower confidence
 
 This ensures system reliability under uncertainty, which is critical in real-world security systems.
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 4. Core Features
 4.1 Incident Processing (End-to-End Flow)
@@ -159,9 +169,9 @@ Enable 2FA immediately due to repeated phishing attempts
 
 This design prioritizes clarity over volume, reducing user anxiety.
 
-5. Responsible AI Considerations
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
-The system is designed with a strong emphasis on responsible AI:
+5. Responsible AI Considerations
 
 AI outputs are not blindly trusted
 
@@ -172,6 +182,8 @@ Confidence scores provide transparency
 Explanation field enables interpretability
 
 Noise filtering reduces misinformation impact
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 6. Data Safety and Security
 
@@ -185,6 +197,8 @@ No API keys committed to repository
 
 Input validation enforced on all endpoints
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
 7. Tech Stack
 Layer	Technology
 Backend	Python, Flask
@@ -192,6 +206,9 @@ AI Module	Rule-based classifier (AI simulation)
 Storage	JSON file
 Frontend	HTML, JavaScript (Fetch API)
 Testing	Python (requests)
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
 8. Testing
 
 Two test cases are implemented:
@@ -201,6 +218,8 @@ Happy path — Valid incident submission
 Edge case — Empty input validation
 
 These ensure correctness of core functionality.
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 9. Tradeoffs and Design Decisions
 What was intentionally simplified:
@@ -217,13 +236,15 @@ Rationale:
 
 Focus was placed on:
 
-system design
+System design
 
-reliability
+Reliability
 
-clear AI integration
+Clear AI integration
 
-meeting all functional requirements within time constraints
+Meeting all functional requirements within time constraints
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 10. Future Enhancements
 
@@ -237,6 +258,8 @@ Safe Circles (secure group sharing)
 
 Geographic visualization of incidents
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
 11. Known Limitations
 
 Classification is keyword-based (not full NLP)
@@ -247,13 +270,17 @@ Similarity detection is lexical, not semantic
 
 No rate limiting on endpoints
 
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
 12. AI Disclosure
 
-AI tools were used for ideation and structuring
+AI tools were used for ideation, code enhancements and structuring-chatGPT and Claude
 
 All logic was manually verified through testing
 
 Some suggestions were modified to improve reliability and determinism
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
 
 13. Quick Start
 Prerequisites
@@ -263,17 +290,21 @@ Python 3.8+
 Run
 pip install flask python-dotenv
 python app.py
-
-Open:
-
+Open
 http://127.0.0.1:5000
 Tests
 python test_core.py
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
 14. Sample Data
 
 A synthetic dataset is provided in:
 
 data/sample_data.json
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — —
+
 15. Video Demonstration
 
 [Add your public video link here]
