@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NoScamFam</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f7fa;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            margin: 40px auto;
+            width: 500px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+        }
+
+        input {
+            padding: 8px;
+            width: 70%;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 8px 12px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        pre {
+            text-align: left;
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            max-height: 200px;
+            overflow: auto;
+        }
+
+        .high { color: red; font-weight: bold; }
+        .medium { color: orange; font-weight: bold; }
+        .low { color: green; font-weight: bold; }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>🚀 NoScamFam</h2>
+    <p>Report suspicious activity</p>
+
+    <input type="text" id="desc" placeholder="Enter incident description">
+    <button onclick="submitIncident()">Submit</button>
+
+    <h3>Response:</h3>
+    <pre id="output"></pre>
+
+    <h3>Security Digest:</h3>
+    <button onclick="getDigest()">View Digest</button>
+    <pre id="digest"></pre>
+</div>
+
+<script>
+function submitIncident() {
+    let desc = document.getElementById("desc").value;
+
+    fetch("/add", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ description: desc })
+    })
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("output").innerText =
+            JSON.stringify(data, null, 2);
+    });
+}
+
+function getDigest() {
+    fetch("/digest")
+    .then(res => res.json())
+    .then(data => {
+        document.getElementById("digest").innerText =
+            JSON.stringify(data, null, 2);
+    });
+}
+</script>
+
+</body>
+</html>

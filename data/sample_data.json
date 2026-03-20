@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "description": "Received an OTP message from an unknown number claiming to be my bank",
+    "analysis": {
+      "type": "phishing",
+      "severity": "high",
+      "summary": "Possible phishing attempt involving sensitive information",
+      "confidence": 0.9,
+      "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+      "actions": [
+        "Do not share OTP",
+        "Block the number",
+        "Report the message"
+      ]
+    },
+    "risk": {
+      "score": 9,
+      "level": "HIGH"
+    },
+    "duplicate": false
+  },
+  {
+    "id": 2,
+    "description": "Someone asked me to reset my password through a suspicious link sent via email",
+    "analysis": {
+      "type": "credential_attack",
+      "severity": "medium",
+      "summary": "Suspicious attempt to access account credentials",
+      "confidence": 0.8,
+      "explanation": "Detected keyword 'password' indicating a possible credential theft attempt",
+      "actions": [
+        "Change password immediately",
+        "Enable 2FA"
+      ]
+    },
+    "risk": {
+      "score": 5,
+      "level": "MEDIUM"
+    },
+    "duplicate": false
+  },
+  {
+    "id": 3,
+    "description": "Got a call from someone pretending to be from the bank asking for my OTP to verify my account",
+    "analysis": {
+      "type": "phishing",
+      "severity": "high",
+      "summary": "Possible phishing attempt involving sensitive information",
+      "confidence": 0.9,
+      "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+      "actions": [
+        "Do not share OTP",
+        "Block the number",
+        "Report the message"
+      ]
+    },
+    "risk": {
+      "score": 9,
+      "level": "HIGH"
+    },
+    "duplicate": false
+  },
+  {
+    "id": 4,
+    "description": "Neighbor posted that they are angry about the noise next door",
+    "analysis": {
+      "type": "noise",
+      "severity": "low",
+      "summary": "Non-actionable content filtered",
+      "confidence": 0.7,
+      "explanation": "Detected emotional or non-informative content",
+      "actions": [
+        "Ignored"
+      ]
+    },
+    "risk": {
+      "score": 1,
+      "level": "LOW"
+    },
+    "duplicate": false
+  },
+  {
+    "id": 5,
+    "description": "Received a WhatsApp message saying I won a lottery and need to share my bank details",
+    "analysis": {
+      "type": "phishing",
+      "severity": "high",
+      "summary": "Possible phishing attempt involving sensitive information",
+      "confidence": 0.9,
+      "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+      "actions": [
+        "Do not share OTP",
+        "Block the number",
+        "Report the message"
+      ]
+    },
+    "risk": {
+      "score": 9,
+      "level": "HIGH"
+    },
+    "duplicate": false
+  },
+  {
+    "id": 6,
+    "description": "Unknown app installed on my phone is requesting access to my contacts and messages",
+    "analysis": {
+      "type": "unknown",
+      "severity": "low",
+      "summary": "Could not classify",
+      "confidence": 0.5,
+      "explanation": "No known keywords detected, defaulting to safe classification",
+      "actions": [
+        "Stay cautious"
+      ]
+    },
+    "risk": {
+      "score": 1,
+      "level": "LOW"
+    },
+    "duplicate": false
+  },
+  {
+    "id": 7,
+    "description": "Received OTP from bank again even though I did not initiate any transaction",
+    "analysis": {
+      "type": "phishing",
+      "severity": "high",
+      "summary": "Possible phishing attempt involving sensitive information",
+      "confidence": 0.9,
+      "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+      "actions": [
+        "Do not share OTP",
+        "Block the number",
+        "Report the message"
+      ]
+    },
+    "risk": {
+      "score": 9,
+      "level": "HIGH"
+    },
+    "duplicate": true
+  }
+]

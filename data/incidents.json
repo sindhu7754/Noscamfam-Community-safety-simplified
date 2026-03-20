@@ -1,0 +1,451 @@
+[
+    {
+        "id": 1,
+        "description": "Received OTP scam message from unknown number"
+    },
+    {
+        "id": 2,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 6,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 7,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 8,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 9,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 10,
+        "description": "Received OTP scam message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 11,
+        "description": "phising",
+        "analysis": {
+            "type": "unknown",
+            "severity": "low",
+            "summary": "Could not classify",
+            "confidence": 0.5,
+            "actions": [
+                "Stay cautious"
+            ]
+        },
+        "risk": {
+            "score": 1,
+            "level": "LOW"
+        }
+    },
+    {
+        "id": 12,
+        "description": "scam",
+        "analysis": {
+            "type": "unknown",
+            "severity": "low",
+            "summary": "Could not classify",
+            "confidence": 0.5,
+            "actions": [
+                "Stay cautious"
+            ]
+        },
+        "risk": {
+            "score": 1,
+            "level": "LOW"
+        }
+    },
+    {
+        "id": 13,
+        "description": "scam",
+        "analysis": {
+            "type": "unknown",
+            "severity": "low",
+            "summary": "Could not classify",
+            "confidence": 0.5,
+            "actions": [
+                "Stay cautious"
+            ]
+        },
+        "risk": {
+            "score": 1,
+            "level": "LOW"
+        }
+    },
+    {
+        "id": 14,
+        "description": "Incident Report",
+        "analysis": {
+            "type": "unknown",
+            "severity": "low",
+            "summary": "Could not classify",
+            "confidence": 0.5,
+            "actions": [
+                "Stay cautious"
+            ]
+        },
+        "risk": {
+            "score": 3,
+            "level": "LOW"
+        }
+    },
+    {
+        "id": 15,
+        "description": "Received an SMS asking for OTP from unknown number claiming to be bank",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 9,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 16,
+        "description": "Someone asked for my account password through email",
+        "analysis": {
+            "type": "credential_attack",
+            "severity": "medium",
+            "summary": "Suspicious attempt to access account credentials",
+            "confidence": 0.8,
+            "actions": [
+                "Change password immediately",
+                "Enable 2FA"
+            ]
+        },
+        "risk": {
+            "score": 3,
+            "level": "LOW"
+        }
+    },
+    {
+        "id": 17,
+        "description": "Someone asked for my account password through email",
+        "analysis": {
+            "type": "credential_attack",
+            "severity": "medium",
+            "summary": "Suspicious attempt to access account credentials",
+            "confidence": 0.8,
+            "actions": [
+                "Change password immediately",
+                "Enable 2FA"
+            ]
+        },
+        "risk": {
+            "score": 3,
+            "level": "LOW"
+        }
+    },
+    {
+        "id": 18,
+        "description": "Received OTP message asking for bank details",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 9,
+            "level": "HIGH"
+        }
+    },
+    {
+        "id": 19,
+        "description": "Received OTP message asking for bank details",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 9,
+            "level": "HIGH"
+        },
+        "duplicate": true
+    },
+    {
+        "id": 20,
+        "description": "kidnapping kids",
+        "analysis": {
+            "type": "unknown",
+            "severity": "low",
+            "summary": "Could not classify",
+            "confidence": 0.5,
+            "explanation": "No known keywords detected, defaulting to safe classification",
+            "actions": [
+                "Stay cautious"
+            ]
+        },
+        "risk": {
+            "score": 3,
+            "level": "LOW"
+        },
+        "duplicate": false
+    },
+    {
+        "id": 21,
+        "description": "suspicious email",
+        "analysis": {
+            "type": "unknown",
+            "severity": "low",
+            "summary": "Could not classify",
+            "confidence": 0.5,
+            "explanation": "No known keywords detected, defaulting to safe classification",
+            "actions": [
+                "Stay cautious"
+            ]
+        },
+        "risk": {
+            "score": 3,
+            "level": "LOW"
+        },
+        "duplicate": false
+    },
+    {
+        "id": 22,
+        "description": "Got OTP message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        },
+        "duplicate": true
+    },
+    {
+        "id": 23,
+        "description": "Got OTP message from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        },
+        "duplicate": true
+    },
+    {
+        "id": 24,
+        "description": "otp from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        },
+        "duplicate": true
+    },
+    {
+        "id": 25,
+        "description": "otp from unknown number",
+        "analysis": {
+            "type": "phishing",
+            "severity": "high",
+            "summary": "Possible phishing attempt involving sensitive information",
+            "confidence": 0.9,
+            "explanation": "Detected keywords like 'OTP' or 'bank' commonly used in phishing attacks",
+            "actions": [
+                "Do not share OTP",
+                "Block the number",
+                "Report the message"
+            ]
+        },
+        "risk": {
+            "score": 7,
+            "level": "HIGH"
+        },
+        "duplicate": true
+    }
+]

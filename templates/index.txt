@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NoScamFam</title>
+</head>
+<body>
+
+    <h2>🚀 NoScamFam - Report Incident</h2>
+
+    <input type="text" id="desc" placeholder="Enter incident description" size="50">
+    <button onclick="submitIncident()">Submit</button>
+
+    <h3>Response:</h3>
+    <pre id="output"></pre>
+
+    <h3>Security Digest:</h3>
+    <button onclick="getDigest()">View Digest</button>
+    <pre id="digest"></pre>
+
+    <script>
+        function submitIncident() {
+            let desc = document.getElementById("desc").value;
+
+            fetch("/add", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ description: desc })
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById("output").innerText =
+                    JSON.stringify(data, null, 2);
+            });
+        }
+
+        function getDigest() {
+            fetch("/digest")
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById("digest").innerText =
+                    JSON.stringify(data, null, 2);
+            });
+        }
+    </script>
+
+</body>
+</html>
